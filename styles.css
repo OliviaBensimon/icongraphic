@@ -48,15 +48,15 @@ div.parent {
 div.parent .child-icon img {
     max-width: 150px;
     height: auto;
-    margin-left: 20px;
+    margin-left: 20px
 }
 
 div.parent .child-icon {
-    flex-basis: 35%;
+    flex-basis: 25%;
 }
 
 div.parent .child-text {
-    flex-basis: 65%;
+    flex-basis: 75%;
 }
 
 .subhead {
@@ -97,6 +97,9 @@ footer {
     div.parent .child-icon img {
         max-width: 95px;
         height: auto;
+        display: block;
+        margin: 0 auto;
+        margin-top: 50%;
     }
 
     div.parent .child-text {
